@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AAPCFUll001">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="LoginTest">
+  <classes>
+  <class name="TestCases.LoginTest"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+<!--   <test name="LoginPageLinksTest">
+  <classes>
+  <class name="TestCases.LoginPageLinksTest"></class>
+  </classes>
+  </test> Test -->
+  
+</suite> <!-- Suite -->
